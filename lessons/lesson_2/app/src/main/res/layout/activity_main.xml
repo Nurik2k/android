@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        android:orientation="horizontal"-->
+<!--        android:rowCount="3"-->
+<!--        android:columnCount="3"-->
+<!--        android:background="#D0F0D0">-->
+
+
+<!--        <Button android:text="Button1"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_column="1"/>-->
+<!--        <Button android:text="Button2"/>-->
+<!--        <Button android:text="Button3"/>-->
+<!--        <Button android:text="Button4"-->
+<!--            android:layout_columnSpan="2"-->
+<!--            android:layout_gravity="fill"/>-->
+<!--        <Button android:text="Button5"/>-->
+<!--        <Button android:text="Button6"/>-->
+<!--        <Button android:text="Button7"-->
+<!--            android:layout_rowSpan="2"-->
+<!--            android:layout_gravity="fill"/>-->
+<!--        <Button android:text="Button8"/>-->
+<!--        <Button android:text="Button9"/>-->
+<!--        <Button android:text="Button10"/>-->
+<!--        <Button android:text="Button11"/>-->
+<!--        <Button android:text="Button12"/>-->
+<!--    </GridLayout>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+<!--        <CheckBox android:id="@+id/checkbox_android"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Android"-->
+<!--            android:onClick="onCheckClicked"/>-->
+
+<!--        <CheckBox android:id="@+id/checkbox_xml"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Xml"-->
+<!--            android:onClick="onCheckClicked"/>-->
+<!--        <CheckBox android:id="@+id/checkbox_java"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Java"-->
+<!--            android:onClick="onCheckClicked"/>-->
+
+<!--        <TextView android:id="@+id/txt_out"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <RadioGroup-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <RadioButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="000" />-->
+<!--            <RadioButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="111" />-->
+<!--        </RadioGroup>-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E0E0E0"
+            android:id="@+id/sv1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/ll1">
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

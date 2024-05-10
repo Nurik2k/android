@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "935428414681",
+    "project_id": "pinterestdb-e2f51",
+    "storage_bucket": "pinterestdb-e2f51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935428414681:android:3a594cf505cbf206e832c8",
+        "android_client_info": {
+          "package_name": "com.example.pinterest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqitAJWFwJrydgcDm_Z-XT9cb9YVoUKL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
